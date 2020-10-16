@@ -1,12 +1,8 @@
   let g:coc_global_extensions = [
     \ 'coc-snippets',
-    \ 'coc-actions',
     \ 'coc-sh',
-    \ 'coc-java-debug',
-    \ 'coc-java',
     \ 'coc-lists',
     \ 'coc-emmet',
-    \ 'coc-tasks',
     \ 'coc-pairs',
     \ 'coc-tsserver',
     \ 'coc-floaterm',
@@ -24,6 +20,8 @@
     \ 'coc-xml',
     \ 'coc-yank',
     \ 'coc-json',
+    \ 'coc-go',
+    \ 'coc-vetur',
     \ 'coc-marketplace',
     \ ]
     " \ 'coc-tabnine',
@@ -71,9 +69,6 @@ endfunction
 
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
-
-" Symbol renaming.
-" nmap <leader>rn <Plug>(coc-rename)
 
 augroup mygroup
   autocmd!
@@ -178,3 +173,4 @@ let g:coc_snippet_prev = '<c-k>'
 
 " Use <C-j> for both expand and jump (make expand higher priority.)
 imap <C-j> <Plug>(coc-snippets-expand-jump)
+

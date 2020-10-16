@@ -33,14 +33,32 @@
     "yaml",
     "json",
     "python",
+    "go",
+    "vue",
     "java"
   ],
   "coc.preferences.hoverTarget": "float",
+
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": { "wrap_attributes": "force-expand-multiline" },
+    "prettier": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false,
+      "semi": false
+    }
+  },
+
+  "go.goplsOptions": {
+    "completeUnimported": true
+  },
 
   // python config
   "python.linting.enabled": false,
   "python.linting.pylintEnabled": false,
   "python.formatting.provider": "black",
+  "python.jediEnabled": false,
   // "python.formatting.blackPath": "~/.local/bin/black",
   // "python.linting.pylintPath": "~/.miniconda/envs/neovim/bin/pylint",
   // "python.condaPath": "~/.miniconda/bin/conda",

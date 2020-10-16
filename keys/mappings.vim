@@ -16,9 +16,6 @@ vnoremap > >gv
 if exists('g:vscode')
 
   " Simulate same TAB behavior in VSCode
-  nmap <Tab> :Tabnext<CR>
-  nmap <S-Tab> :Tabprev<CR>
-
 else
 
   " Better nav for omnicomplete
@@ -34,7 +31,7 @@ else
   " nnoremap <c-u> viwU<Esc>
 
   " TAB in general mode will move to text buffer
-  nnoremap <silent> <TAB> :bnext<CR>
+  " nnoremap <silent> <TAB> :bnext<CR>
   " SHIFT-TAB will go back
   nnoremap <silent> <S-TAB> :bprevious<CR>
 
