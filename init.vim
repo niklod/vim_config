@@ -28,6 +28,7 @@ else
 
   " Plugin Configuration
   source $HOME/.config/nvim/keys/which-key.vim
+  source $HOME/.config/nvim/autoload/plugged/matchit/plugin/matchit.vim
    " source $HOME/.config/nvim/plug-config/golang.vim
    " source $HOME/.config/nvim/plug-config/vim-commentary.vim
    " source $HOME/.config/nvim/plug-config/better-whitespace.vim

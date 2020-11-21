@@ -17,10 +17,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Surround
     Plug 'tpope/vim-surround'
     Plug 'powerman/vim-plugin-ruscmd'
-    " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
-    " Closetags
-    Plug 'alvan/vim-closetag'
 
   if exists('g:vscode')
     Plug 'machakann/vim-highlightedyank'
