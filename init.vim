@@ -29,21 +29,21 @@ else
   " Plugin Configuration
   source $HOME/.config/nvim/keys/which-key.vim
   source $HOME/.config/nvim/autoload/plugged/matchit/plugin/matchit.vim
-   " source $HOME/.config/nvim/plug-config/golang.vim
-   " source $HOME/.config/nvim/plug-config/vim-commentary.vim
-   " source $HOME/.config/nvim/plug-config/better-whitespace.vim
-   " source $HOME/.config/nvim/plug-config/fzf.vim
-   " source $HOME/.config/nvim/plug-config/coc.vim
-   " source $HOME/.config/nvim/plug-config/vim-rooter.vim
-   " source $HOME/.config/nvim/plug-config/vue.vim
-   " source $HOME/.config/nvim/plug-config/git-messenger.vim
-   " source $HOME/.config/nvim/plug-config/gitgutter.vim
-   " source $HOME/.config/nvim/plug-config/closetags.vim
-   " source $HOME/.config/nvim/plug-config/floaterm.vim
-   " source $HOME/.config/nvim/plug-config/xtabline.vim
-   " source $HOME/.config/nvim/plug-config/tagalong.vim
-   " source $HOME/.config/nvim/plug-config/asynctask.vim
-  " luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+  source $HOME/.config/nvim/plug-config/golang.vim
+  source $HOME/.config/nvim/plug-config/vim-commentary.vim
+  source $HOME/.config/nvim/plug-config/better-whitespace.vim
+  source $HOME/.config/nvim/plug-config/fzf.vim
+  source $HOME/.config/nvim/plug-config/coc.vim
+  source $HOME/.config/nvim/plug-config/vim-rooter.vim
+  source $HOME/.config/nvim/plug-config/vue.vim
+  source $HOME/.config/nvim/plug-config/git-messenger.vim
+  source $HOME/.config/nvim/plug-config/gitgutter.vim
+  source $HOME/.config/nvim/plug-config/closetags.vim
+  source $HOME/.config/nvim/plug-config/floaterm.vim
+  source $HOME/.config/nvim/plug-config/xtabline.vim
+  source $HOME/.config/nvim/plug-config/tagalong.vim
+  source $HOME/.config/nvim/plug-config/asynctask.vim
+  luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 endif
 
 " Add paths to node and python here

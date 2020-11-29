@@ -3,8 +3,8 @@ let g:go_def_mapping_enabled = 0
 
 " Linter config
 let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
-let g:go_metalinter_autosave_enabled = ['vet', 'golint']
-let g:go_metalinter_autosave = 0
+let g:go_metalinter_autosave_enabled = ['vet', 'golint', 'errcheck']
+let g:go_metalinter_autosave = 1
 let g:go_metalinter_deadline = "5s"
 
 let g:go_doc_popup_window = 1
