@@ -1,3 +1,5 @@
+let g:go_null_module_warning = 0
+
 " disable vim-go :GoDef short cut (gd)
 let g:go_def_mapping_enabled = 0
 
